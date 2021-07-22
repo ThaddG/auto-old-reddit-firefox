@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Auto Old Reddit",
+  "version": "1.0",
+
+  "description": "Automatically changes reddit urls to old.reddit",
+
+  "icons": {
+    "48": "snoo-icon.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "tabs"
+  ]
+
+}
